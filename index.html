@@ -332,12 +332,21 @@
         </header>
 
         <div class="cols-2">
-          <form class="card contact-form" action="mailto:sksonip@gmail.com" method="post" enctype="text/plain">
-            <label class="field"><span>Name</span><input type="text" name="name" required /></label>
-            <label class="field"><span>Email</span><input type="email" name="email" required /></label>
-            <label class="field"><span>Message</span><textarea name="message" rows="5" required></textarea></label>
-            <button class="btn btn-accent" type="submit">Send</button>
-          </form>
+          <div class="card email-card">
+  <h3 class="h4">Email Me</h3>
+  <p class="muted">No form—click the button to open your email app.</p>
+
+  <a class="btn btn-accent"
+     href="mailto:sksonip@gmail.com?subject=Inquiry%20from%20sksonip.github.io&body=Hi%20Satish,%0A%0AI%27m%20reaching%20out%20about%20...%0A%0AName:%0AOrganization:%0ARole:%0A%0AThanks,%0A"
+     rel="nofollow">
+    Compose Email
+  </a>
+
+  <p class="small muted" style="margin-top:8px;">
+    Or email directly:
+    <a href="mailto:sksonip@gmail.com">sksonip@gmail.com</a>
+  </p>
+</div>
 
           <aside class="card contact-info">
             <h3 class="h4">Direct Links</h3>
