@@ -1,16 +1,22 @@
 # Satish Kumar Soni — Portfolio
 
-Live site: **https://sksonip.github.io**
+Public portfolio: https://sksonip.github.io/
 
-A clean, image-free, single-page portfolio focused on Supply Chain & Data Analytics.
+A responsive static portfolio presenting supply chain operations, analytics, and selected public software projects. This repository is the maintained source for the public site; alternate portfolio drafts link here.
 
-## ✨ Features
-- **No images required** — uses CSS shapes, gradients, and inline SVG icons
-- **Responsive** layout with sticky header & smooth scrolling
-- **Auto / Light / Dark** theme toggle (remembered in localStorage)
-- **Typed headline** and **reveal-on-scroll** effects (reduced motion respected)
-- **Back-to-top** button
-- **Plausible** analytics enabled (domain: `sksonip.github.io`)
-- **PWA manifest** included (icons optional)
+## Files
 
-## 📂 Structure
+- `index.html`: profile, selected projects, experience overview, and contact links.
+- `styles.css`: responsive presentation and theme styles.
+- `script.js`: navigation, theme preference, and interface behavior.
+- `assets/resume.pdf`: existing public resume; maintained separately.
+
+## Preview locally
+
+```sh
+python3 -m http.server 8000
+```
+
+Open http://localhost:8000/. GitHub Pages publishes the site from this repository.
+
+Career dates, resume content, and achievement figures require verification before updates. Public project descriptions state their actual scope and link to repository documentation.
